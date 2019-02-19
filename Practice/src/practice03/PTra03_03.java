@@ -1,4 +1,4 @@
-package practice03;
+	package practice03;
 /*
  * PTra03_03.java
  *   作成	LIKEIT	2017
@@ -23,7 +23,7 @@ public class PTra03_03 {
 
 		//---------------------ここから本題-----------------------
 		// ★ 入力された値が、3で割り切れる数字か判定する条件式を記述してください
-		if () {
+		if (num>=3 && num%3==0) {
 			System.out.println("3で割り切れる数字です");
 		} else {
 			System.out.println("3で割り切れない数字です");
